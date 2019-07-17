@@ -17,7 +17,7 @@ jobs:
       - checkout
 
 #       - run:
-#           name: Waiting for Postgres to be ready
+#             name: Waiting for Postgres to be ready
 #           command: |
 #             for i in `seq 1 10`;
 #             do
