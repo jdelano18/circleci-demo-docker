@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+#  search:
+#    image: docker.elastic.co/elasticsearch/elasticsearch:6.6.1
+#    environment:
+#      - discovery.type=single-node
+#    ports:
+#      - "9200:9200"
+#      - "9300:9300"
+#    volumes:
+#      - data:/usr/share/elasticsearch/data
+#  web:
+#    build: .
+#    env_file:
+#      - ./.env
+#    command: python manage.py runserver 0.0.0.0:8000
+#    volumes:
+#      - .:/code
+#    ports:
+#      - "8000:8000"
+#    depends_on:
+#      - db
+#      - search
+
+# volumes:
+#  data:
